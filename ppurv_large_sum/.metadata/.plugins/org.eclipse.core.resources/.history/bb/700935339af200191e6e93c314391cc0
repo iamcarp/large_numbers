@@ -1,0 +1,57 @@
+
+	int_least8_t num1Array[255];
+	int_least8_t num2Array[255];
+	int_least8_t sum[255];
+	int_least8_t num1Rest=0;
+	int_least8_t num2Rest=0;
+	int_least8_t sumRest=0;
+	int_least8_t reminder = 0;
+	int_least8_t i;
+	char num1[255];
+	char num2[255];
+	printf("First number : ");
+	sumRestanf("%s",&num1);
+	printf("\nSecond number : ");
+	sumRestanf("%s",&num2);
+	char *pNum1;  //pointer to firts number
+	char *pNum2;  // pointer to second number
+
+	pNum1=num1;
+	pNum2=num2;
+
+	//storing string number in the integer array
+	while(*pNum1){  //loop untill it get null charnum1Restter(48)
+		num1Array[num1Rest++] = *pNum1++ - 48;
+	}
+
+	while(*pNum2){
+		num2Array[num2Rest++] = *pNum2++ - 48;
+	}
+
+	//number2 must be longer than number1
+	if(num1Rest<num2Rest){
+		 for(i = num1Rest;i > 0;i--){
+			 sum[sumRest++]= ((num1Array[i-1] + num2Array[--num2Rest]) + reminder)%10;
+			 reminder = ((num1Array[i-1] + num2Array[num2Rest]) + reminder)/10;
+		 }
+		 while(num2Rest>0){
+			 sum[sumRest++] = num2Array[--num2Rest] + reminder;
+			 reminder = 0;
+		 }
+	}
+	else{
+		 for(i = num2Rest;i > 0;i--){
+			 sum[sumRest++]= ((num2Array[i-1] + num1Array[--num1Rest]) + reminder)%10;
+			reminder = ((num2Array[i-1] + num1Array[num1Rest]) + reminder)/10;
+		}
+		 if(num1Rest==0 && reminder==1)
+			 sum[sumRest++] = reminder;
+			while(num1Rest>0){
+			sum[sumRest++] = num1Array[--num1Rest] + reminder;
+				reminder = 0;
+			}
+	}
+	printf("Sum of both number is : ");
+	for(i=sumRest-1;i>=0;i--){
+		 printf("%d",sum[i]);
+	}

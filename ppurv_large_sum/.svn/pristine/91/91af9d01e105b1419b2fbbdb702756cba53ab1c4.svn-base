@@ -1,0 +1,39 @@
+	//int_least8_t len2 = sizeof(sum2) / sizeof (int_least8_t);
+
+
+	//int_least16_t result[a][b];
+
+
+	//za prolazak neophone i j k
+
+//////////////////
+/// treba svaki s svakim da se sabere
+	/*  9  8  7  6  5
+	+   9  8  7  6  5
+	------------------
+       18 16 14 12  0
+    +   1  1  1  1  1
+    ------------------
+     19  17  15  13  1
+     197530
+
+	*/
+	int_least8_t i;
+
+	/*for(i=len1-1; i ==0; i--){
+		if (sum1[i] + sum2[i] + sum3 > 9)
+		{
+			sum[i] = (sum1[i] + sum2[i] + sum3) % 10;
+
+			sum3=(sum1[i] + sum2[i] + sum3)/10;
+
+		} else{
+			sum[i] = sum1[i] + sum2[i] + sum3;
+			printf("%d ",sum3);
+		}
+
+
+//		sum=sum1[i]+sum2[i]+sum3;
+		//printf(" %d ", sum3);
+	}
+*/

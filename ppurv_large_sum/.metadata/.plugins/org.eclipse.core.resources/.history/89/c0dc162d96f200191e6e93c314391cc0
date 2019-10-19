@@ -1,0 +1,23 @@
+/*
+ * main.c
+ *
+ *  Created on: Oct 18, 2019
+ *      Author: Luka Karan RA50/2016
+ */
+
+
+#include "sum.h"
+
+
+//static int_least16_t pomeraj;
+
+#define ARG_NUM 4
+
+#define EXIT_SUCCESS  0
+#define EXIT_FAILURE -1
+
+
+int_least8_t main(int_least8_t argc, const int_least8_t *argv[])
+{ addNums
+	return 0;
+}

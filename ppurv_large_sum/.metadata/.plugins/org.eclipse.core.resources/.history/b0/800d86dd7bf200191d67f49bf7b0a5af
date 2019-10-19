@@ -1,0 +1,22 @@
+/*
+ * main.c
+ *
+ *  Created on: Oct 18, 2019
+ *      Author: Luka Karan RA50/2016
+ */
+
+
+#include "sum.h"
+
+
+static int_least16_t pomeraj;
+
+int main(){
+char num1="12";
+char num2="9000";
+char suma;
+suma=SUM(num1,num2);
+printf("%s",suma);
+
+return 0;
+}

@@ -1,0 +1,216 @@
+
+	int_least8_t num1Array[255];
+	int_least8_t num2Array[255];
+	int_least8_t sum[255];
+	int_least8_t num1Rest=0;
+	int_least8_t num2Rest=0;
+	int_least8_t sumRest=0;
+	int_least8_t reminder = 0;
+	int_least8_t i;
+	char num1[255];
+	char num2[255];
+	printf("First number : ");
+	sumRestanf("%s",&num1);
+	printf("\nSecond number : ");
+	sumRestanf("%s",&num2);
+	char *pNum1;  //pointer to firts number
+	char *pNum2;  // pointer to second number
+
+	pNum1=num1;
+	pNum2=num2;
+
+	//storing string number in the integer array
+	while(*pNum1){  //loop untill it get null charnum1Restter(48)
+		num1Array[num1Rest++] = *pNum1++ - 48;
+	}
+
+	while(*pNum2){
+		num2Array[num2Rest++] = *pNum2++ - 48;
+	}
+
+	//number2 must be longer than number1
+	if(num1Rest<num2Rest){
+		 for(i = num1Rest;i > 0;i--){
+			 sum[sumRest++]= ((num1Array[i-1] + num2Array[--num2Rest]) + reminder)%10;
+			 reminder = ((num1Array[i-1] + num2Array[num2Rest]) + reminder)/10;
+		 }
+		 while(num2Rest>0){
+			 sum[sumRest++] = num2Array[--num2Rest] + reminder;
+			 reminder = 0;
+		 }
+	}
+	else{
+		 for(i = num2Rest;i > 0;i--){
+			 sum[sumRest++]= ((num2Array[i-1] + num1Array[--num1Rest]) + reminder)%10;
+			reminder = ((num2Array[i-1] + num1Array[num1Rest]) + reminder)/10;
+		}
+		 if(num1Rest==0 && reminder==1)
+			 sum[sumRest++] = reminder;
+			while(num1Rest>0){
+			sum[sumRest++] = num1Array[--num1Rest] + reminder;
+				reminder = 0;
+			}
+	}
+	printf("Sum of both number is : ");
+	for(i=sumRest-1;i>=0;i--){
+		 printf("%d",sum[i]);
+	}
+	
+	
+	
+	*//**/*/*/*///*/*/*///////////////////////////////////////////
+	
+const bool true = 1;
+const bool false = 0;
+
+
+bool isOverflow(int_least64_t num1, int_least64_t num2)
+{
+	// Overflow over LLONG_MAX checks
+	if (num1 > 0 && num2 > 0)
+	{
+		if (num1 > LLONG_MAX - num2)
+		{
+			return true;
+		}
+	}
+	if (num1 < 0 && num2 < 0)
+		{
+			if (num1 < LLONG_MIN - num2)
+			{
+				return true;
+			}
+		}
+
+	// It's All Good
+	return false;
+}
+
+
+bool isDigit(int_least8_t c)
+{
+	if (c >= '0' && c <= '9')
+	{
+		return true;
+	}
+
+	return false;
+}
+
+//////////////////////////////
+
+
+int_least64_t stringToNumber(const int_least8_t* str, const int_least8_t** err_ptr, int_least8_t* err_code) {
+	int_least8_t c = *str;
+
+	int_least8_t base = DECIMAL; // 10
+	int_least8_t neg = 0;
+
+	int_least8_t overflow = 0;
+
+	int_least8_t cutlim = 0;
+	uint_least64_t cutoff = 0;
+
+	uint_least64_t acc = 0;
+
+
+	if (c == '-')
+	{
+		neg = 1;
+		str++;
+	}
+	else if (c == '+')
+	{
+		str++;
+	}
+
+	cutoff = neg ? -(uint_least64_t)LLONG_MIN : (uint_least64_t)LLONG_MAX;
+	cutlim = cutoff % (uint_least64_t)base;
+	cutoff /= (uint_least64_t)base;
+
+	for (acc = 0, c = *str; c != '\0'; c = *(++str))
+	{
+		if (isDigit(c))
+		{
+			c -= '0';
+		}
+		else
+		{
+			*err_ptr = str;
+			*err_code = ERROR_NOT_NUM;
+
+			break;
+		}
+
+		if (acc > cutoff || (acc == cutoff && c > cutlim))
+		{
+
+			// Oh no, overflow.
+			overflow = 1;
+
+			break;
+		}
+		else
+		{
+			acc *= base;
+			acc += c;
+		}
+	}
+
+	if (overflow)
+	{
+		acc = neg ? LLONG_MIN : LLONG_MAX;
+		*err_code = ERROR_OUT_OF_RANGE;
+	}
+	else if (neg)
+	{
+		acc = -acc;
+	}
+
+	return (acc);
+}
+
+///////////////////
+
+
+
+void addNums(const int_least8_t* ptr_a, const int_least8_t* ptr_b) {
+
+	int_least64_t num1 = 0LL; // long long num = 0LL
+	int_least64_t num2 = 0LL; // long long num = 0LL.
+	int_least8_t error = 0;
+	const int_least8_t* error_msg = NULL; //non value
+
+	scanf("num1=%d",num1);
+	scanf("\nnum2=%d",num2);
+	num1 = stringToNumber(ptr_a, &error_msg, &error);
+	if (error == ERROR_OUT_OF_RANGE)
+	{
+		fprintf(stderr, "Out of range: %s\n", ptr_a);
+		return;
+	}
+	else if (error == ERROR_NOT_NUM)
+	{
+		fprintf(stderr, "Invalid characters: %s\n", error_msg);
+		return;
+	}
+
+	num2 = stringToNumber(ptr_b, &error_msg, &error);
+	if (error == ERROR_OUT_OF_RANGE)
+	{
+		fprintf(stderr, "Out of range: %s\n", ptr_b);
+		return;
+	}
+	else if (error == ERROR_NOT_NUM)
+	{
+		fprintf(stderr, "Invalid characters: %s\n", error_msg);
+		return;
+	}
+
+	if (num2 > 0)
+	{
+		printf("%" PRIdLEAST64 " + %" PRIuLEAST64 " = %" PRIdLEAST64 " (%s)\n", num1, (uint_least64_t)num2, num1+num2, isOverflow(num1, num2) != 0 ? "overflow"  : "ok");
+	}
+
+}
+	

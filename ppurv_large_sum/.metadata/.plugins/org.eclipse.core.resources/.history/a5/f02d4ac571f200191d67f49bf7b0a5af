@@ -1,0 +1,21 @@
+/*
+ * main.c
+ *
+ *  Created on: Oct 18, 2019
+ *      Author: Luka Karan RA50/2016
+ */
+
+
+#include "sum.h"
+
+
+//static int_least16_t pomeraj;
+
+int main(){
+
+	const int_least8_t len1 = sizeof(sum1) / sizeof (int_least8_t); //poslednji
+	const int_least8_t len2 = sizeof(sum2) / sizeof (int_least8_t); //poslednji
+
+
+	return 0;
+}
