@@ -14,22 +14,12 @@
 #include <inttypes.h>
 #include <assert.h>
 #include <limits.h>
+#include<ctype.h>
+#define MAX 100
 
-#define DECIMAL 10
-int chrtoint(char a);
-#define ERROR_NOT_NUM        -1
-#define ERROR_OUT_OF_RANGE   -2
+int chrtoint(char symbol);
+char *stringReverese(char *str);
+void summNumbers( char num1[], char num2[]);
+void test1();
 
-typedef int_least8_t bool;
-
-bool isDigit(int_least8_t c);
-
-int_least64_t stringToNumber(const int_least8_t* str, const int_least8_t** err_ptr, int_least8_t* err_code);
-void addNums(const int_least8_t* ptr_a, const int_least8_t* ptr_b);
-
-
-
-//void pushback(int data);
-char* SUM();
-
-#endif /* SUM_H_ */
+#endif

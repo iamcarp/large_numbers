@@ -9,72 +9,48 @@
 #include "sum.h"
 
 #include<ctype.h>
+/*
+ * main.c
+ *
+ *  Created on: Oct 18, 2019
+ *      Author: Luka Karan RA50/2016
+ *
+ *      Zadatak broj 11
+ *    				 Napisati funkciju koja sabira vrlo velike brojeve. Brojevi su predstavljeni nizom svojih cifara.
+ *  				 Funkcija za sabiranje prima dva velika broja i vraca novi broj koji ppredstavlja njihov zbir.
+ * 				     Napraviti od toga modul i realizovati ga kao staticku biblioteku.
+ * 				     Tu biblioteku ukljuciti u glavni program koji ce obavljati komunikaciju s okruzenjem.
+ *
+ *      Kratak opise resenja:
+ *      					Implementiran je staticki modul.
+ *      					Modul sadrzi sum.c i sum.h fajlove.
+ *      					U fajlu sum.h nalazi se deklaracija funkcije.
+ *      					U fajlu sum.c su implementirane funkcije.
+ *      					Funkcija stringReverese vrsi rotaciju stringa.
+ *      					Funkcija chrtoint pretvara znakove u cifre.
+ *      					Funkcija summNumbers je glavna funkcija koja racuna duzinu nizova, racuna vrednost za svaki posebno sabran broj,
+ *      					ukoliko je zbir veci od 10 dodaje 1u sledecem koraku sabiranja
+ *
+ */
 
-
-//static int_least16_t pomeraj;
-
-#define ARG_NUM 4
-
-#define EXIT_SUCCESS  0
-#define EXIT_FAILURE -1
-
-
-
+#include "inttypes.h"
 
 int main(){
-	const char number1[80];
-	const char number2[80];
-	int_least8_t rest[80]={};
-	int_least8_t number1Lenght;
-	int_least8_t number2Lenght;
-	int_least8_t i;
-	int_least8_t j;
-	int_least8_t m;
-	int_least8_t maxLenght;
-	int_least8_t sum;
+	char num1[80];
+	char num2[80];
 
-	printf("Enter Firestt Number:");
-	scanf("%s", &number1);
-	printf("\nEnter Second Number:");
-	scanf("%s", &number2);
+	printf("User choose numbers");
+	printf("\nFirst Number:");
+	scanf("%s", num1);
+	printf("\nSecond Number:");
+	scanf("%s", num2);
 
-	number1Lenght = strlen(number1);
-	number2Lenght = strlen(number2);
 
-	maxLenght = number1Lenght;
-	if(number1Lenght<number2Lenght)
-	{
-		maxLenght = number2Lenght;
-	}
+	summNumbers(num1,num2);
 
-	m=0;
+	test1();
 
-	for(i=0; i< maxLenght; i++){
-	if(number1Lenght==number2Lenght || (i < number1Lenght && i < number2Lenght))
-	{
-		sum = m+chrtoint(number1[i])+chrtoint(number2[i]);
-	}
-	else if(i >=number1Lenght)
-	{
-		sum = m+chrtoint(number2[i]);
-	}
-	else if(i >=number2Lenght)
-	{
-		sum = m+chrtoint(number1[i]);
-	}
+return 0;
 
-	rest[i] = sum%10;
-	m = sum/10;
-	}
 
-	if(m){
-	rest[i]=m;
-	i++;
-	}
-
-	printf("\nResult: ");
-	for(j=0; j < i; j++){
-	printf("%d", rest[i-j-1]);
-	}
-	return 0;
 }

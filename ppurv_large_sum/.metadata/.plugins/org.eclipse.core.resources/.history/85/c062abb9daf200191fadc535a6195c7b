@@ -1,0 +1,93 @@
+/*
+ * sum.c
+ *
+ *  Created on: Oct 18, 2019
+ *      Author: rtrk
+ */
+#include "sum.h"
+
+
+
+const bool true = 1;
+const bool false = 0;
+
+bool isDigit(int_least8_t c)
+{
+	if (c >= '0' && c <= '9')
+	{
+		return true;
+	}
+
+	return false;
+}
+
+
+int_least64_t strToNum(const int_least8_t* str, const int_least8_t** err_ptr, int_least8_t* err_code) {
+    int_least8_t c = *str;
+
+    int_least8_t base = DECIMAL; // 10
+    int_least8_t neg = 0;
+
+    int_least8_t overflow = 0;
+
+    int_least8_t cutlim = 0;
+    uint_least64_t cutoff = 0;
+
+    uint_least64_t acc = 0;
+
+
+    if (c == '-')
+    {
+        neg = 1;
+        str++;
+    }
+    else if (c == '+')
+    {
+        str++;
+    }
+
+    cutoff = neg ? -(uint_least64_t)LLONG_MIN : (uint_least64_t)LLONG_MAX;
+    cutlim = cutoff % (uint_least64_t)base;
+    cutoff /= (uint_least64_t)base;
+
+    for (acc = 0, c = *str; c != '\0'; c = *(++str))
+    {
+        if (isDigit(c))
+        {
+            c -= '0';
+        }
+        else
+        {
+            *err_ptr = str;
+            *err_code = ERROR_NOT_NUM;
+
+            break;
+        }
+
+        if (acc > cutoff || (acc == cutoff && c > cutlim))
+        {
+
+            // Oh no, overflow.
+            overflow = 1;
+
+            break;
+        }
+        else
+        {
+            acc *= base;
+            acc += c;
+        }
+    }
+
+    if (overflow)
+    {
+        acc = neg ? LLONG_MIN : LLONG_MAX;
+        *err_code = ERROR_OUT_OF_RANGE;
+    }
+    else if (neg)
+    {
+        acc = -acc;
+    }
+
+    return (acc);
+}

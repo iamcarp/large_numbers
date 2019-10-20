@@ -1,0 +1,110 @@
+/*
+ * main.c
+ *
+ *  Created on: Oct 18, 2019
+ *      Author: Luka Karan RA50/2016
+ */
+
+
+#include "sum.h"
+
+#include<ctype.h>
+/*
+ * main.c
+ *
+ *  Created on: Oct 18, 2019
+ *      Author: Luka Karan RA50/2016
+ */
+
+
+#include "sum.h"
+
+#include "inttypes.h"
+
+int main(){
+
+	int_least8_t sum1[] = {9, 8, 7, 6, 5};
+	int_least8_t sum2[] = { 8, 7, 6, 5};
+	//int_least8_t tenth[] = {0,0,0,0,0};
+	int_least8_t tenth = 0;
+	//int_least8_t len2;
+	int_least16_t sum[10]={};
+	int_least8_t len1 = sizeof(sum1) / sizeof (int_least8_t);
+	int_least8_t len2 = sizeof(sum2) / sizeof (int_least8_t);
+	int_least8_t i;
+	int_least8_t j;
+	int_least8_t k;
+	int_least8_t carry[10]={};
+	int_least8_t temp[len2];
+
+	//int_least8_t temp
+
+/*	if(len1>len2){
+		temp=len1;
+		len1=len2;
+		len2=temp;
+	}*/
+//rotacija stringa
+	for (i=0;i<len2;i++){
+		j=0;
+		k=0;
+		while (sum2[j]!='0'	)
+		{
+			temp[k]=sum2[j];
+			k++;
+			k++;
+		}
+		j=0;
+		while(j<i){
+			temp[k]=sum2[j];
+			j++;
+			k++
+		}
+		printf("%c"PRIdLEAST8,sum2[i]);
+			printf("\n------------------------");
+
+	}
+
+	for (i=0;i<len1;i++)
+	{
+		printf("%"PRIdLEAST8,sum1[i]);
+	}
+
+	printf("+");
+
+	for (i=0;i<len2;i++)
+		{
+			printf("%"PRIdLEAST8,sum2[i]);
+		}
+
+	printf("=");
+	printf("\n");
+
+	for (i=len2-1;i>-1;i--)
+	{
+		sum[i]=sum1[i]+sum2[i]+(tenth%10);
+		tenth=sum[i]/10;
+		if(i==0){
+			carry[i]=10+(sum[i]%10);
+		}
+		else{
+			carry[i]=sum[i]%10;
+		}
+		printf("////////");
+		printf("%"PRIdLEAST8,sum1[i]);
+		printf("////////");
+		printf("%"PRIdLEAST8,sum2[i]);
+		printf("////////");
+		printf("%"PRIdLEAST8,carry[i]);
+		printf("////////");
+		printf("\n");
+
+	}
+
+for (i=0;i<len2;i++){
+	printf("%"PRIdLEAST8,carry[i]);
+}
+
+
+return 0;
+}

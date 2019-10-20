@@ -1,0 +1,47 @@
+/*
+ * sum.c
+ *
+ *  Created on: Oct 18, 2019
+ *      Author: rtrk
+ */
+#include "sum.h"
+
+
+
+const bool true = 1;
+const bool false = 0;
+
+bool isDigit(int_least8_t c)
+{
+	if (c >= '0' && c <= '9')
+	{
+		return true;
+	}
+
+	return false;
+}
+
+int chrtoint(char a){
+	int i;
+	for (i = 48; i<=57; i++)
+	{
+		if (toascii(i)==a) //#include<ctype.h> convert to ascii
+		{
+			return i-48;
+		}
+	}
+	return 0;
+}
+
+void need(){
+	const char number1[80];
+		const char number2[80];
+		int_least8_t rest[80]={};
+		int_least8_t number1Lenght;
+		int_least8_t number2Lenght;
+		int_least8_t i;
+		int_least8_t j;
+		int_least8_t m;
+		int_least8_t maxLenght;
+		int_least8_t sum;
+}

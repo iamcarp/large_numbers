@@ -1,0 +1,34 @@
+/*
+ * sum.c
+ *
+ *  Created on: Oct 18, 2019
+ *      Author: rtrk
+ */
+#include "sum.h"
+#include<stdio.h>
+#include<string.h>
+#include<stdlib.h>
+#include<ctype.h>
+
+
+const bool true = 1;
+const bool false = 0;
+
+bool isDigit(int_least8_t c)
+{
+	if (c >= '0' && c <= '9')
+	{
+		return true;
+	}
+
+	return false;
+}
+
+int chrtoint(char a){
+int i;
+for (i = 48; i<=57; i++)
+if (toascii(i)==a) return i-48;
+return 0;
+}
+
+

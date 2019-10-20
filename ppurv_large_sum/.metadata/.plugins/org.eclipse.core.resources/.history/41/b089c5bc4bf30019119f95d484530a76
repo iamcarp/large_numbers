@@ -1,0 +1,34 @@
+/*
+ * main.c
+ *
+ *  Created on: Oct 18, 2019
+ *      Author: Luka Karan RA50/2016
+ */
+
+
+#include "sum.h"
+
+#include<ctype.h>
+/*
+ * main.c
+ *
+ *  Created on: Oct 18, 2019
+ *      Author: Luka Karan RA50/2016
+ */
+
+#include "inttypes.h"
+
+int main(){
+	const char num1[80];
+	const char num2[80];
+
+	printf("User choose numbers");
+	printf("\nFirst Number:");
+	scanf("%s", &num1);
+	printf("\nSecond Number:");
+	scanf("%s", &num2);
+
+	summNumbers(num1,num2);
+
+	return 0;
+}

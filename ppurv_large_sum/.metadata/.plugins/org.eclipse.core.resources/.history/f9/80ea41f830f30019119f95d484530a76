@@ -1,0 +1,124 @@
+/*
+ * main.c
+ *
+ *  Created on: Oct 18, 2019
+ *      Author: Luka Karan RA50/2016
+ */
+
+
+#include "sum.h"
+
+#include<ctype.h>
+/*
+ * main.c
+ *
+ *  Created on: Oct 18, 2019
+ *      Author: Luka Karan RA50/2016
+ */
+
+
+#include "sum.h"
+
+#include "inttypes.h"
+
+int chrtoint(char a){
+	int i;
+	for (i = 48; i<=57; i++)
+	{
+		if (toascii(i)==a) return i-48;
+	}
+	return 0;
+}
+
+int main(){
+
+	int_least8_t sum1[] = {9, 8, 7, 6, 5};
+	int_least8_t sum2[] = { 9,8, 7, 6, 5};
+	//int_least8_t tenth[] = {0,0,0,0,0};
+	int_least8_t tenth = 0;
+	int_least8_t lenSum;;
+	int_least16_t sum[10]={};
+	int_least8_t len1 = sizeof(sum1) / sizeof (int_least8_t);
+	int_least8_t len2 = sizeof(sum2) / sizeof (int_least8_t);
+	int_least8_t i;
+	int_least8_t carry[10]={};
+	int_least8_t suma;
+
+	//int_least8_t temp
+
+	/*
+	 * cmax = c1;
+	if(c1<c2)
+	{
+		cmax = c2;
+	}
+	 */
+	lenSum=len1;
+	if(len1<len2)
+	{
+		lenSum=len2;
+	}
+
+	for (i=0;i<len1;i++)
+	{
+		printf("%"PRIdLEAST8,sum1[i]);
+	}
+
+	printf("+");
+
+	for (i=0;i<len2;i++)
+		{
+			printf("%"PRIdLEAST8,sum2[i]);
+		}
+
+	printf("=");
+	printf("\n");
+
+	tenth=0;
+		for(i=0; i< lenSum; i++)
+		{
+			if(len1==len2 || (i < len1 && i < len2))
+			{
+				sum = tenth+chrtoint(sum1[i])+chrtoint(sum2[i]);
+			}
+			else if(i >=len1)
+			{
+				sum = tenth+chrtoint(sum2[i]);
+			}
+			else if(i >=len2)
+			{
+				sum = tenth+chrtoint(sum1[i]);
+			}
+
+			carry[i] = sum%10;
+			tenth = sum/10;
+		}
+/*
+	for (i=len2-1;i>-1;i--)
+	{
+		sum[i]=sum1[i]+sum2[i]+(tenth%10);
+		tenth=sum[i]/10;
+		if(i==0){
+			carry[i]=10+(sum[i]%10);
+		}
+		else{
+			carry[i]=sum[i]%10;
+		}
+		printf("////////");
+		printf("%"PRIdLEAST8,sum1[i]);
+		printf("////////");
+		printf("%"PRIdLEAST8,sum2[i]);
+		printf("////////");
+		printf("%"PRIdLEAST8,carry[i]);
+		printf("////////");
+		printf("\n");
+
+	}
+*/
+for (i=0;i<len2;i++){
+	printf("%"PRIdLEAST8,carry[i]);
+}
+
+
+return 0;
+}

@@ -1,0 +1,119 @@
+/*
+ * sum.c
+ *
+ *  Created on: Oct 18, 2019
+ *      Author: rtrk
+ */
+#include "sum.h"
+
+
+
+const bool true = 1;
+const bool false = 0;
+extern const bool true;
+extern const bool false;
+
+
+
+bool isOverflow(int_least64_t num1, int_least64_t num2)
+{
+    // Overflow over LLONG_MAX checks
+    if (num1 > 0 && num2 > 0)
+    {
+        if (num1 > LLONG_MAX - num2)
+        {
+            return true;
+        }
+    }
+
+    // Overflow under LLONG_MIN checks
+    if (num1 < 0 && num2 < 0)
+    {
+        if (num1 < LLONG_MIN - num2)
+        {
+            return true;
+        }
+    }
+
+    // It's All Good
+    return false;
+}
+
+bool isDigit(int_least8_t character)
+{
+	if (character >= '0' && character <= '9')
+	{
+		return true;
+	}
+
+	return false;
+}
+
+
+
+void addNums(const char* ptrNum1, const int_least8_t* ptrNum2) {
+
+    int_least64_t a = 0LL;
+    int_least64_t b = 0LL;
+    int_least8_t error = 0;
+    const int_least8_t* error_msg = NULL;
+    int_least8_t lenNum1;
+    int_least8_t lenNum2;
+    printf("Enter First Number:");
+	scanf("%s", &ptrNum1);
+	printf("\nEnter Second Number:");
+	scanf("%s", &ptrNum2);
+
+    a = strtol(ptrNum1,NULL, 10);
+    if (error == ERROR_OUT_OF_RANGE)
+    {
+        fprintf(stderr, "Out of range: %s\n", ptrNum1);
+        return;
+    }
+    else if (error == ERROR_NOT_NUM)
+    {
+        fprintf(stderr, "Invalid characters: %s\n", error_msg);
+        return;
+    }
+
+    b = strtol(ptrNum2, NULL, 10);
+    if (error == ERROR_OUT_OF_RANGE)
+    {
+        fprintf(stderr, "Out of range: %s\n", ptrNum2);
+        return;
+    }
+    else if (error == ERROR_NOT_NUM)
+    {
+        fprintf(stderr, "Invalid characters: %s\n", error_msg);
+        return;
+    }
+
+
+
+    if (lenNum2<lenNum1)
+    {
+    	int_least8_t temp;
+    	temp=lenNum1;
+    	lenNum1=lenNum2;
+    	lenNum2=temp;
+    }
+
+   lenNum1=strlen(ptrNum1);
+   lenNum2=strlen(ptrNum2);
+   int_least8_t carry=0;
+   int_least8_t dec;
+
+
+
+    int_least8_t i;
+    for(i=lenNum2;i>=0;i--){
+
+
+    }
+
+
+
+}
+
+
+
