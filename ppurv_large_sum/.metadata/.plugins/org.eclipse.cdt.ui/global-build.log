@@ -1,10 +1,15 @@
-18:34:00 **** Incremental Build of configuration Debug for project main ****
+13:34:47 **** Incremental Build of configuration Debug for project main ****
 make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -I"/home/luka/Desktop/large_numbers/ppurv_large_sum/SUM" -include"/home/luka/Desktop/large_numbers/ppurv_large_sum/SUM/sum.c" -O0 -g3 -Wall -c -fmessage-length=0 -fPIC -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
 Building target: main
 Invoking: GCC C Linker
-gcc -static -L"/home/luka/Desktop/ppurv_large_sum/SUM/Debug" -o "main"  ./main.o   -lSUM
+gcc -static -L"/home/luka/Desktop/large_numbers/ppurv_large_sum/SUM/Debug" -o "main"  ./main.o   -lSUM
 Finished building target: main
  
-18:34:04 **** Incremental Build of configuration Debug for project main ****
+13:34:49 **** Incremental Build of configuration Debug for project main ****
 make all 
 make: Nothing to be done for 'all'.

@@ -17,7 +17,7 @@ C_DEPS += \
 %.o: ../%.c
 	@echo 'Building file: $<'
 	@echo 'Invoking: GCC C Compiler'
-	gcc -I"/home/luka/Desktop/ppurv_large_sum/SUM" -include"/home/luka/Desktop/ppurv_large_sum/SUM/sum.c" -O0 -g3 -Wall -c -fmessage-length=0 -fPIC -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -o "$@" "$<"
+	gcc -I"/home/luka/Desktop/large_numbers/ppurv_large_sum/SUM" -include"/home/luka/Desktop/large_numbers/ppurv_large_sum/SUM/sum.c" -O0 -g3 -Wall -c -fmessage-length=0 -fPIC -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 

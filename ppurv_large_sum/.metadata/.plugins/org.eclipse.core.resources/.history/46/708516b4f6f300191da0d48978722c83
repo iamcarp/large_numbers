@@ -48,7 +48,7 @@ int main(){
 
 	summNumbers(num1,num2);
 
-	printf("\ntest : 10352167389123123+21231278538o9123213123120 \n");
+	printf("test :")
 	test1();
 
 return 0;

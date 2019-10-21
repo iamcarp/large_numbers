@@ -1,8 +1,8 @@
-18:33:48 **** Incremental Build of configuration Debug for project SUM ****
+13:32:13 **** Incremental Build of configuration Debug for project SUM ****
 make all 
 Building file: ../tests.c
 Invoking: GCC C Compiler
-gcc -I"/home/luka/Desktop/ppurv_large_sum/SUM" -O0 -g3 -Wall -c -fmessage-length=0 -fPIC -MMD -MP -MF"tests.d" -MT"tests.o" -o "tests.o" "../tests.c"
+gcc -I"/home/luka/Desktop/large_numbers/ppurv_large_sum/SUM" -O0 -g3 -Wall -c -fmessage-length=0 -fPIC -MMD -MP -MF"tests.d" -MT"tests.o" -o "tests.o" "../tests.c"
 Finished building: ../tests.c
  
 Building target: libSUM.a
@@ -12,5 +12,5 @@ ar: creating libSUM.a
 Finished building target: libSUM.a
  
 
-18:33:49 Build Finished (took 601ms)
+13:32:13 Build Finished (took 170ms)
 

@@ -28,7 +28,7 @@ all: main
 main: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: GCC C Linker'
-	gcc -static -L"/home/luka/Desktop/ppurv_large_sum/SUM/Debug" -o "main" $(OBJS) $(USER_OBJS) $(LIBS)
+	gcc -static -L"/home/luka/Desktop/large_numbers/ppurv_large_sum/SUM/Debug" -o "main" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
