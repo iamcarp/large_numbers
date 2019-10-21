@@ -36,21 +36,22 @@
 #include "inttypes.h"
 
 int main(){
-
-	char num1[120];
-	char num2[120];
+	char num1[80];
+	char num2[80];
 
 	printf("User choose numbers");
-
 	printf("\nFirst Number:");
 	scanf("%s", num1);
-	isDigit(num1);
-
+	isdigit(num1);
 	printf("\nSecond Number:");
 	scanf("%s", num2);
-	isDigit(num2);
+	isdigit(num2);
+
 
 	summNumbers(num1,num2);
+
+	printf("\ntest : 10352167389123123+21231278538o9123213123120 \n");
+	//test1();
 
 return 0;
 

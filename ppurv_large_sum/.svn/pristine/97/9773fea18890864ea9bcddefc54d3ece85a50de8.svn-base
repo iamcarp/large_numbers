@@ -1,0 +1,500 @@
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/_isfuncdcl.h", line 48: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/_isfuncdcl.h", line 48: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/_isfuncdcl.h", line 48: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("isxdigit")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/_isfuncdcl.h", line 49: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/_isfuncdcl.h", line 49: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/_isfuncdcl.h", line 50: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/_isfuncdcl.h", line 50: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/_isfuncdcl.h", line 50: warning: (MISRA-C:2004 19.15/R) Precautions shall be taken in order to prevent the contents of a header file being included twice
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/ctype.h", line 69: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/ctype.h", line 69: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/ctype.h", line 69: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("toupper")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/ctype.h", line 70: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/ctype.h", line 70: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/ctype.h", line 70: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("tolower")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/ctype.h", line 93: warning: (MISRA-C:2004 19.7/A) A function should be used in preference to a function-like macro
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/ctype.h", line 94: warning: (MISRA-C:2004 19.7/A) A function should be used in preference to a function-like macro
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/ctype.h", line 95: warning: (MISRA-C:2004 19.7/A) A function should be used in preference to a function-like macro
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/ctype.h", line 96: warning: (MISRA-C:2004 19.7/A) A function should be used in preference to a function-like macro
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/ctype.h", line 97: warning: (MISRA-C:2004 19.7/A) A function should be used in preference to a function-like macro
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/ctype.h", line 98: warning: (MISRA-C:2004 19.7/A) A function should be used in preference to a function-like macro
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/ctype.h", line 99: warning: (MISRA-C:2004 19.7/A) A function should be used in preference to a function-like macro
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/ctype.h", line 100: warning: (MISRA-C:2004 19.7/A) A function should be used in preference to a function-like macro
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/ctype.h", line 101: warning: (MISRA-C:2004 19.7/A) A function should be used in preference to a function-like macro
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/ctype.h", line 102: warning: (MISRA-C:2004 19.7/A) A function should be used in preference to a function-like macro
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/ctype.h", line 103: warning: (MISRA-C:2004 19.7/A) A function should be used in preference to a function-like macro
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/ctype.h", line 106: warning: (MISRA-C:2004 19.7/A) A function should be used in preference to a function-like macro
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/ctype.h", line 107: warning: (MISRA-C:2004 19.7/A) A function should be used in preference to a function-like macro
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/ctype.h", line 108: warning: (MISRA-C:2004 19.7/A) A function should be used in preference to a function-like macro
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/ctype.h", line 109: warning: (MISRA-C:2004 19.7/A) A function should be used in preference to a function-like macro
+"../sum.h", line 24: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"../sum.h", line 27: warning: (MISRA-C:2004 16.5/R) Functions with no parameters shall be declared and defined with the parameter list void
+"../sum.c", line 12: warning: (MISRA-C:2004 6.1/R) The plain char type shall be used only for the storage and use of character values
+"../sum.c", line 14: warning: (MISRA-C:2004 14.7/R) A function shall have a single point of exit at the end of the function
+"../sum.c", line 24: warning: (MISRA-C:2004 12.5/R) The operands of a logical && or || shall be primary-expressions
+"../sum.c", line 24: warning: (MISRA-C:2004 12.5/R) The operands of a logical && or || shall be primary-expressions
+"../sum.c", line 24: warning: (MISRA-C:2004 12.6/A) The operands of logical operators (&&, || and !) should be effectively Boolean
+"../sum.c", line 24: warning: (MISRA-C:2004 6.1/R) The plain char type shall be used only for the storage and use of character values
+"../sum.c", line 26: warning: (MISRA-C:2004 17.6/R) The address of an object with automatic storage shall not be assigned to another object that may persist after the first object has ceased to exist ("str")
+"../sum.c", line 29: warning: (MISRA-C:2004 12.10/R) The comma operator shall not be used
+"../sum.c", line 29: warning: (MISRA-C:2004 17.4/R) Array indexing shall be the only allowed form of pointer arithmetic
+"../sum.c", line 29: warning: (MISRA-C:2004 17.4/R) Array indexing shall be the only allowed form of pointer arithmetic
+"../sum.c", line 29: warning: (MISRA-C:2004 12.2/R) The value of an expression shall be the same under any order of evaluation that the standard permits
+"../sum.c", line 29: warning: (MISRA-C:2004 12.1/A) Limited dependence should be placed on C's operator precedence rules in expressions
+"../sum.c", line 29: warning: (MISRA-C:2004 17.4/R) Array indexing shall be the only allowed form of pointer arithmetic
+"../sum.c", line 29: warning: (MISRA-C:2004 12.10/R) The comma operator shall not be used
+"../sum.c", line 29: warning: (MISRA-C:2004 12.13/A) The increment (++) and decrement (--) operators should not be mixed with other operators in an expression
+"../sum.c", line 29: warning: (MISRA-C:2004 17.4/R) Array indexing shall be the only allowed form of pointer arithmetic
+"../sum.c", line 31: warning: (MISRA-C:2004 12.7/R) Bitwise operators shall not be applied to operands whose underlying type is signed
+"../sum.c", line 31: warning: (MISRA-C:2004 10.1/R) The value of an expression of integer type shall not be implicitly converted to a different underlying type if the expression is complex
+"../sum.c", line 31: warning: (MISRA-C:2004 6.1/R) The plain char type shall be used only for the storage and use of character values
+"../sum.c", line 32: warning: (MISRA-C:2004 12.7/R) Bitwise operators shall not be applied to operands whose underlying type is signed
+"../sum.c", line 32: warning: (MISRA-C:2004 10.1/R) The value of an expression of integer type shall not be implicitly converted to a different underlying type if the expression is complex
+"../sum.c", line 32: warning: (MISRA-C:2004 6.1/R) The plain char type shall be used only for the storage and use of character values
+"../sum.c", line 33: warning: (MISRA-C:2004 12.7/R) Bitwise operators shall not be applied to operands whose underlying type is signed
+"../sum.c", line 33: warning: (MISRA-C:2004 10.1/R) The value of an expression of integer type shall not be implicitly converted to a different underlying type if the expression is complex
+"../sum.c", line 33: warning: (MISRA-C:2004 6.1/R) The plain char type shall be used only for the storage and use of character values
+"../sum.c", line 36: warning: (MISRA-C:2004 17.6/R) The address of an object with automatic storage shall not be assigned to another object that may persist after the first object has ceased to exist ("str")
+"../sum.c", line 29: warning: (MISRA-C:2004 13.5/R) The three expressions of a for statement shall be concerned only with loop control
+"../sum.c", line 26: warning: (MISRA-C:2004 14.7/R) A function shall have a single point of exit at the end of the function
+"../sum.c", line 39: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"../sum.c", line 42: warning: (MISRA-C:2004 6.2/R) signed and unsigned char type shall be used only for the storage and use of numeric values
+"../sum.c", line 42: warning: (MISRA-C:2004 6.1/R) The plain char type shall be used only for the storage and use of character values
+"../sum.c", line 44: warning: (MISRA-C:2004 10.1/R) The value of an expression of integer type shall not be implicitly converted to a different underlying type if the expression is not constant and is a function argument
+"../sum.c", line 44: warning: (MISRA-C:2004 6.2/R) signed and unsigned char type shall be used only for the storage and use of numeric values
+"../sum.c", line 46: warning: (MISRA-C:2004 10.1/R) The value of an expression of integer type shall not be implicitly converted to a different underlying type if the expression is not constant and is a return expression
+"../sum.c", line 46: warning: (MISRA-C:2004 6.1/R) The plain char type shall be used only for the storage and use of character values
+"../sum.c", line 46: warning: (MISRA-C:2004 14.7/R) A function shall have a single point of exit at the end of the function
+"../sum.c", line 60: warning: (MISRA-C:2004 5.7/A) No identifier name should be reused ("i")
+"../sum.c", line 61: warning: (MISRA-C:2004 5.7/A) No identifier name should be reused ("j")
+"../sum.c", line 64: warning: (MISRA-C:2004 10.1/R) The value of an expression of integer type shall not be implicitly converted to a different underlying type if it is not a conversion to a wider integer type of the same signedness
+"../sum.c", line 65: warning: (MISRA-C:2004 10.1/R) The value of an expression of integer type shall not be implicitly converted to a different underlying type if it is not a conversion to a wider integer type of the same signedness
+"../sum.c", line 80: warning: (MISRA-C:2004 12.5/R) The operands of a logical && or || shall be primary-expressions
+"../sum.c", line 80: warning: (MISRA-C:2004 12.5/R) The operands of a logical && or || shall be primary-expressions
+"../sum.c", line 80: warning: (MISRA-C:2004 12.5/R) The operands of a logical && or || shall be primary-expressions
+"../sum.c", line 80: warning: (MISRA-C:2004 12.1/A) Limited dependence should be placed on C's operator precedence rules in expressions
+"../sum.c", line 82: warning: (MISRA-C:2004 10.1/R) The value of an expression of integer type shall not be implicitly converted to a different underlying type if the expression is complex
+"../sum.c", line 82: warning: (MISRA-C:2004 12.2/R) The value of an expression shall be the same under any order of evaluation that the standard permits
+"../sum.c", line 86: warning: (MISRA-C:2004 10.1/R) The value of an expression of integer type shall not be implicitly converted to a different underlying type if the expression is complex
+"../sum.c", line 90: warning: (MISRA-C:2004 10.1/R) The value of an expression of integer type shall not be implicitly converted to a different underlying type if the expression is complex
+"../sum.c", line 103: warning: (MISRA-C:2004 20.9/R) The input/output library <stdio.h> shall not be used in production code ("printf")
+"../sum.c", line 107: warning: (MISRA-C:2004 20.9/R) The input/output library <stdio.h> shall not be used in production code ("printf")
+"../sum.c", line 88: warning: (MISRA-C:2004 14.10/R) All if ... else if constructs shall be terminated with an else clause
+"../sum.h", line 11: warning: (MISRA-C:2004 20.9/R) The input/output library <stdio.h> shall not be used in production code
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/linkage.h", line 56: warning: (MISRA-C:2004 19.4/R) C macros shall only expand to a braced initialiser, a constant, a string literal, a parenthesised expression, a type qualifier, a storage class specifier, or a do-while-zero construct
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/linkage.h", line 60: warning: (MISRA-C:2004 19.4/R) C macros shall only expand to a braced initialiser, a constant, a string literal, a parenthesised expression, a type qualifier, a storage class specifier, or a do-while-zero construct
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/linkage.h", line 72: warning: (MISRA-C:2004 19.4/R) C macros shall only expand to a braced initialiser, a constant, a string literal, a parenthesised expression, a type qualifier, a storage class specifier, or a do-while-zero construct
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/linkage.h", line 74: warning: (MISRA-C:2004 19.4/R) C macros shall only expand to a braced initialiser, a constant, a string literal, a parenthesised expression, a type qualifier, a storage class specifier, or a do-while-zero construct
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdarg.h", line 47: warning: (MISRA-C:2004 1.1/R) Ensure strict ANSI C mode (-ps) is enabled
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdarg.h", line 47: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("va_list")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdarg.h", line 63: warning: (MISRA-C:2004 20.1/R) Reserved identifiers, macros and functions in the standard library, shall not be defined, redefined or undefined ("va_end")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdarg.h", line 63: warning: (MISRA-C:2004 19.7/A) A function should be used in preference to a function-like macro
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdarg.h", line 79: warning: (MISRA-C:2004 20.1/R) Reserved identifiers, macros and functions in the standard library, shall not be defined, redefined or undefined ("va_start")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdarg.h", line 79: warning: (MISRA-C:2004 19.7/A) A function should be used in preference to a function-like macro
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdarg.h", line 79: warning: (MISRA-C:2004 19.10/R) In the definition of a function-like macro each instance of a parameter shall be enclosed in parentheses unless it is used as the operand of # or ##. The compiler cannot determine if the parameter "_ap" is used as an operand of # or ##.
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdarg.h", line 137: warning: (MISRA-C:2004 20.1/R) Reserved identifiers, macros and functions in the standard library, shall not be defined, redefined or undefined ("va_arg")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdarg.h", line 137: warning: (MISRA-C:2004 19.7/A) A function should be used in preference to a function-like macro
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdarg.h", line 137: warning: (MISRA-C:2004 19.10/R) In the definition of a function-like macro each instance of a parameter shall be enclosed in parentheses unless it is used as the operand of # or ##. The compiler cannot determine if the parameter "_ap" is used as an operand of # or ##.
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdarg.h", line 137: warning: (MISRA-C:2004 19.10/R) In the definition of a function-like macro each instance of a parameter shall be enclosed in parentheses unless it is used as the operand of # or ##. The compiler cannot determine if the parameter "_type" is used as an operand of # or ##.
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdarg.h", line 137: warning: (MISRA-C:2004 19.10/R) In the definition of a function-like macro each instance of a parameter shall be enclosed in parentheses unless it is used as the operand of # or ##. The compiler cannot determine if the parameter "_ap" is used as an operand of # or ##.
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdarg.h", line 137: warning: (MISRA-C:2004 19.10/R) In the definition of a function-like macro each instance of a parameter shall be enclosed in parentheses unless it is used as the operand of # or ##. The compiler cannot determine if the parameter "_ap" is used as an operand of # or ##.
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdarg.h", line 137: warning: (MISRA-C:2004 19.10/R) In the definition of a function-like macro each instance of a parameter shall be enclosed in parentheses unless it is used as the operand of # or ##. The compiler cannot determine if the parameter "_ap" is used as an operand of # or ##.
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdarg.h", line 137: warning: (MISRA-C:2004 19.10/R) In the definition of a function-like macro each instance of a parameter shall be enclosed in parentheses unless it is used as the operand of # or ##. The compiler cannot determine if the parameter "_ap" is used as an operand of # or ##.
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdarg.h", line 137: warning: (MISRA-C:2004 19.10/R) In the definition of a function-like macro each instance of a parameter shall be enclosed in parentheses unless it is used as the operand of # or ##. The compiler cannot determine if the parameter "_type" is used as an operand of # or ##.
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdarg.h", line 137: warning: (MISRA-C:2004 19.10/R) In the definition of a function-like macro each instance of a parameter shall be enclosed in parentheses unless it is used as the operand of # or ##. The compiler cannot determine if the parameter "_ap" is used as an operand of # or ##.
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdarg.h", line 137: warning: (MISRA-C:2004 19.10/R) In the definition of a function-like macro each instance of a parameter shall be enclosed in parentheses unless it is used as the operand of # or ##. The compiler cannot determine if the parameter "_ap" is used as an operand of # or ##.
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdarg.h", line 137: warning: (MISRA-C:2004 19.10/R) In the definition of a function-like macro each instance of a parameter shall be enclosed in parentheses unless it is used as the operand of # or ##. The compiler cannot determine if the parameter "_type" is used as an operand of # or ##.
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdarg.h", line 137: warning: (MISRA-C:2004 19.10/R) In the definition of a function-like macro each instance of a parameter shall be enclosed in parentheses unless it is used as the operand of # or ##. The compiler cannot determine if the parameter "_ap" is used as an operand of # or ##.
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 49: warning: (MISRA-C:2004 19.7/A) A function should be used in preference to a function-like macro
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 57: warning: (MISRA-C:2004 2.2/R) Source code shall only use /* ... */ style comments
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 58: warning: (MISRA-C:2004 2.2/R) Source code shall only use /* ... */ style comments
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 59: warning: (MISRA-C:2004 2.2/R) Source code shall only use /* ... */ style comments
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 60: warning: (MISRA-C:2004 2.2/R) Source code shall only use /* ... */ style comments
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 69: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("size_t")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 73: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 78: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 79: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("FILE")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 83: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("fpos_t")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 93: warning: (MISRA-C:2004 20.1/R) Reserved identifiers, macros and functions in the standard library, shall not be defined, redefined or undefined ("_IOFBF")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 94: warning: (MISRA-C:2004 20.1/R) Reserved identifiers, macros and functions in the standard library, shall not be defined, redefined or undefined ("_IOLBF")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 95: warning: (MISRA-C:2004 20.1/R) Reserved identifiers, macros and functions in the standard library, shall not be defined, redefined or undefined ("_IONBF")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 107: warning: (MISRA-C:2004 19.7/A) A function should be used in preference to a function-like macro
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 108: warning: (MISRA-C:2004 19.7/A) A function should be used in preference to a function-like macro
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 109: warning: (MISRA-C:2004 19.7/A) A function should be used in preference to a function-like macro
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 110: warning: (MISRA-C:2004 19.7/A) A function should be used in preference to a function-like macro
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 111: warning: (MISRA-C:2004 19.7/A) A function should be used in preference to a function-like macro
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 116: warning: (MISRA-C:2004 20.1/R) Reserved identifiers, macros and functions in the standard library, shall not be defined, redefined or undefined ("BUFSIZ")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 118: warning: (MISRA-C:2004 20.1/R) Reserved identifiers, macros and functions in the standard library, shall not be defined, redefined or undefined ("FOPEN_MAX")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 118: warning: (MISRA-C:2004 19.4/R) C macros shall only expand to a braced initialiser, a constant, a string literal, a parenthesised expression, a type qualifier, a storage class specifier, or a do-while-zero construct
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 119: warning: (MISRA-C:2004 20.1/R) Reserved identifiers, macros and functions in the standard library, shall not be defined, redefined or undefined ("FILENAME_MAX")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 120: warning: (MISRA-C:2004 20.1/R) Reserved identifiers, macros and functions in the standard library, shall not be defined, redefined or undefined ("TMP_MAX")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 127: warning: (MISRA-C:2004 20.1/R) Reserved identifiers, macros and functions in the standard library, shall not be defined, redefined or undefined ("stdin")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 128: warning: (MISRA-C:2004 20.1/R) Reserved identifiers, macros and functions in the standard library, shall not be defined, redefined or undefined ("stdout")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 129: warning: (MISRA-C:2004 20.1/R) Reserved identifiers, macros and functions in the standard library, shall not be defined, redefined or undefined ("stderr")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 132: warning: (MISRA-C:2004 20.1/R) Reserved identifiers, macros and functions in the standard library, shall not be defined, redefined or undefined ("L_tmpnam")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 132: warning: (MISRA-C:2004 19.4/R) C macros shall only expand to a braced initialiser, a constant, a string literal, a parenthesised expression, a type qualifier, a storage class specifier, or a do-while-zero construct
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 135: warning: (MISRA-C:2004 20.1/R) Reserved identifiers, macros and functions in the standard library, shall not be defined, redefined or undefined ("SEEK_SET")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 136: warning: (MISRA-C:2004 20.1/R) Reserved identifiers, macros and functions in the standard library, shall not be defined, redefined or undefined ("SEEK_CUR")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 137: warning: (MISRA-C:2004 20.1/R) Reserved identifiers, macros and functions in the standard library, shall not be defined, redefined or undefined ("SEEK_END")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 140: warning: (MISRA-C:2004 20.1/R) Reserved identifiers, macros and functions in the standard library, shall not be defined, redefined or undefined ("NULL")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 144: warning: (MISRA-C:2004 20.1/R) Reserved identifiers, macros and functions in the standard library, shall not be defined, redefined or undefined ("EOF")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 166: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 166: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("remove")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 167: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 167: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("rename")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 168: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("tmpfile")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 169: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("tmpnam")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 174: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 174: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("fclose")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 175: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("fopen")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 176: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("freopen")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 178: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("setbuf")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 179: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 180: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 179: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("setvbuf")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 181: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 181: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("fflush")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 186: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 186: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("fprintf")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 188: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 188: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("fscanf")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 190: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 190: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("printf")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 192: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 192: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("scanf")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 194: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 194: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("sprintf")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 196: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 199: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 199: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("sscanf")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 201: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 201: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("vfprintf")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 203: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 205: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 205: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("vprintf")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 207: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 209: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 209: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("vsprintf")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 212: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 215: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 221: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 221: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("fgetc")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 222: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 222: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("fgets")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 224: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 224: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 224: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("fputc")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 225: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 225: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("fputs")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 226: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 226: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("getc")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 227: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 227: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("getchar")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 228: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("gets")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 229: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 229: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 229: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("putc")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 230: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 230: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 230: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("putchar")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 231: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 231: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("puts")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 232: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 232: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 232: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("ungetc")
+ 
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 237: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("fread")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 239: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("fwrite")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 245: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 245: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("fgetpos")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 246: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 246: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 247: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 246: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("fseek")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 248: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 248: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("fsetpos")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 249: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 249: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("ftell")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 250: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("rewind")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 255: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("clearerr")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 256: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 256: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("feof")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 257: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 257: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("ferror")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 258: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("perror")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 260: warning: (MISRA-C:2004 19.7/A) A function should be used in preference to a function-like macro
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 260: warning: (MISRA-C:2004 19.4/R) C macros shall only expand to a braced initialiser, a constant, a string literal, a parenthesised expression, a type qualifier, a storage class specifier, or a do-while-zero construct
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 261: warning: (MISRA-C:2004 19.7/A) A function should be used in preference to a function-like macro
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 261: warning: (MISRA-C:2004 19.4/R) C macros shall only expand to a braced initialiser, a constant, a string literal, a parenthesised expression, a type qualifier, a storage class specifier, or a do-while-zero construct
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 262: warning: (MISRA-C:2004 19.7/A) A function should be used in preference to a function-like macro
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 264: warning: (MISRA-C:2004 19.7/A) A function should be used in preference to a function-like macro
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdio.h", line 266: warning: (MISRA-C:2004 19.7/A) A function should be used in preference to a function-like macro
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 55: warning: (MISRA-C:2004 2.2/R) Source code shall only use /* ... */ style comments
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 56: warning: (MISRA-C:2004 2.2/R) Source code shall only use /* ... */ style comments
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 57: warning: (MISRA-C:2004 2.2/R) Source code shall only use /* ... */ style comments
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 58: warning: (MISRA-C:2004 2.2/R) Source code shall only use /* ... */ style comments
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 62: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 62: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 62: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("div_t")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 64: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 64: warning: (MISRA-C:2004 5.7/A) No identifier name should be reused ("quot")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 64: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 64: warning: (MISRA-C:2004 5.7/A) No identifier name should be reused ("rem")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 64: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("ldiv_t")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 67: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 67: warning: (MISRA-C:2004 5.7/A) No identifier name should be reused ("quot")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 67: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 67: warning: (MISRA-C:2004 5.7/A) No identifier name should be reused ("rem")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 69: warning: (MISRA-C:2004 20.1/R) Reserved identifiers, macros and functions in the standard library, shall not be defined, redefined or undefined ("MB_CUR_MAX")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 83: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("wchar_t")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 87: warning: (MISRA-C:2004 20.1/R) Reserved identifiers, macros and functions in the standard library, shall not be defined, redefined or undefined ("EXIT_FAILURE")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 88: warning: (MISRA-C:2004 20.1/R) Reserved identifiers, macros and functions in the standard library, shall not be defined, redefined or undefined ("EXIT_SUCCESS")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 90: warning: (MISRA-C:2004 20.1/R) Reserved identifiers, macros and functions in the standard library, shall not be defined, redefined or undefined ("RAND_MAX")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 92: warning: (MISRA-C:2004 19.1/A) #include statements in a file should only be preceded by other preprocessor directives or comments
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 101: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 101: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 101: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("abs")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 101: warning: (MISRA-C:2004 16.4/R) The identifiers used in the declaration and definition of a function shall be identical
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 102: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 102: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 102: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("labs")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 102: warning: (MISRA-C:2004 16.4/R) The identifiers used in the declaration and definition of a function shall be identical
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 104: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 104: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 104: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 104: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 106: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 106: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("atoi")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 107: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 107: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("atol")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 109: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 109: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 111: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 111: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 112: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 112: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("atof")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 114: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 114: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 114: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("strtol")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 115: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 116: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 115: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("strtoul")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 118: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 118: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 118: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 119: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 119: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 120: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 122: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 123: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 123: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("strtod")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 124: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 124: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 126: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 126: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("rand")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 127: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("srand")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 129: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("calloc")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 131: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("malloc")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 133: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("realloc")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 135: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("free")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 139: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("abort")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 142: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 142: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("atexit")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 144: warning: (MISRA-C:2004 16.3/R) Identifiers shall be given for all of the parameters in a function prototype declaration
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 145: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("bsearch")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 148: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("qsort")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 151: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 151: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("exit")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 153: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 153: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 153: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("div")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 154: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 154: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 154: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("ldiv")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 156: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 156: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 156: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 156: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 159: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("getenv")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 160: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 160: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("system")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 162: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 162: warning: (MISRA-C:2004 16.3/R) Identifiers shall be given for all of the parameters in a function prototype declaration
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 162: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("mblen")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 163: warning: (MISRA-C:2004 16.3/R) Identifiers shall be given for all of the parameters in a function prototype declaration
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 163: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("mbstowcs")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 164: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 164: warning: (MISRA-C:2004 16.3/R) Identifiers shall be given for all of the parameters in a function prototype declaration
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 164: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("mbtowc")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 166: warning: (MISRA-C:2004 16.3/R) Identifiers shall be given for all of the parameters in a function prototype declaration
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 166: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("wcstombs")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 167: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 167: warning: (MISRA-C:2004 16.3/R) Identifiers shall be given for all of the parameters in a function prototype declaration
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdlib.h", line 167: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("wctomb")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/string.h", line 43: warning: (MISRA-C:2004 2.2/R) Source code shall only use /* ... */ style comments
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/string.h", line 44: warning: (MISRA-C:2004 2.2/R) Source code shall only use /* ... */ style comments
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/string.h", line 45: warning: (MISRA-C:2004 2.2/R) Source code shall only use /* ... */ style comments
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/string.h", line 46: warning: (MISRA-C:2004 2.2/R) Source code shall only use /* ... */ style comments
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/string.h", line 60: warning: (MISRA-C:2004 19.1/A) #include statements in a file should only be preceded by other preprocessor directives or comments
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/string.h", line 62: warning: (MISRA-C:2004 19.4/R) C macros shall only expand to a braced initialiser, a constant, a string literal, a parenthesised expression, a type qualifier, a storage class specifier, or a do-while-zero construct
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/string.h", line 64: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("strlen")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/string.h", line 66: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("strcpy")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/string.h", line 67: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("strncpy")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/string.h", line 68: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("strcat")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/string.h", line 69: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("strncat")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/string.h", line 70: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/string.h", line 70: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("strchr")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/string.h", line 71: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/string.h", line 71: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("strrchr")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/string.h", line 73: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/string.h", line 73: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("strcmp")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/string.h", line 74: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/string.h", line 74: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("strncmp")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/string.h", line 76: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/string.h", line 76: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("strcoll")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/string.h", line 77: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("strxfrm")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/string.h", line 78: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("strpbrk")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/string.h", line 79: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("strspn")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/string.h", line 80: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("strcspn")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/string.h", line 81: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("strstr")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/string.h", line 82: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("strtok")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/string.h", line 83: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/string.h", line 83: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("strerror")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/string.h", line 85: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("memmove")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/string.h", line 86: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("memcpy")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/string.h", line 86: warning: (MISRA-C:2004 16.4/R) The identifiers used in the declaration and definition of a function shall be identical
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/string.h", line 88: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/string.h", line 88: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("memcmp")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/string.h", line 89: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/string.h", line 89: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("memchr")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/string.h", line 91: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/string.h", line 91: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("memset")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdint.h", line 205: warning: (MISRA-C:2004 19.7/A) A function should be used in preference to a function-like macro
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdint.h", line 206: warning: (MISRA-C:2004 19.7/A) A function should be used in preference to a function-like macro
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdint.h", line 207: warning: (MISRA-C:2004 19.7/A) A function should be used in preference to a function-like macro
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdint.h", line 208: warning: (MISRA-C:2004 19.7/A) A function should be used in preference to a function-like macro
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdint.h", line 209: warning: (MISRA-C:2004 19.7/A) A function should be used in preference to a function-like macro
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdint.h", line 210: warning: (MISRA-C:2004 19.7/A) A function should be used in preference to a function-like macro
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdint.h", line 212: warning: (MISRA-C:2004 19.7/A) A function should be used in preference to a function-like macro
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdint.h", line 213: warning: (MISRA-C:2004 19.7/A) A function should be used in preference to a function-like macro
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdint.h", line 215: warning: (MISRA-C:2004 19.7/A) A function should be used in preference to a function-like macro
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdint.h", line 216: warning: (MISRA-C:2004 19.7/A) A function should be used in preference to a function-like macro
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdint.h", line 220: warning: (MISRA-C:2004 19.7/A) A function should be used in preference to a function-like macro
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/stdint.h", line 221: warning: (MISRA-C:2004 19.7/A) A function should be used in preference to a function-like macro
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/inttypes.h", line 45: warning: (MISRA-C:2004 5.7/A) No identifier name should be reused ("quot")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/inttypes.h", line 45: warning: (MISRA-C:2004 5.7/A) No identifier name should be reused ("rem")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/inttypes.h", line 53: warning: (MISRA-C:2004 19.1/A) #include statements in a file should only be preceded by other preprocessor directives or comments
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/_fmt_specifier.h", line 233: warning: (MISRA-C:2004 19.15/R) Precautions shall be taken in order to prevent the contents of a header file being included twice
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/inttypes.h", line 57: warning: (MISRA-C:2004 19.1/A) #include statements in a file should only be preceded by other preprocessor directives or comments
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/inttypes.h", line 62: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/inttypes.h", line 64: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/assert.h", line 46: warning: (MISRA-C:2004 2.2/R) Source code shall only use /* ... */ style comments
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/assert.h", line 47: warning: (MISRA-C:2004 2.2/R) Source code shall only use /* ... */ style comments
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/assert.h", line 48: warning: (MISRA-C:2004 2.2/R) Source code shall only use /* ... */ style comments
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/assert.h", line 49: warning: (MISRA-C:2004 2.2/R) Source code shall only use /* ... */ style comments
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/assert.h", line 60: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/assert.h", line 60: warning: (MISRA-C:2004 16.3/R) Identifiers shall be given for all of the parameters in a function prototype declaration
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/assert.h", line 61: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/assert.h", line 61: warning: (MISRA-C:2004 16.3/R) Identifiers shall be given for all of the parameters in a function prototype declaration
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/assert.h", line 66: warning: (MISRA-C:2004 16.3/R) Identifiers shall be given for all of the parameters in a function prototype declaration
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/assert.h", line 69: warning: (MISRA-C:2004 19.7/A) A function should be used in preference to a function-like macro
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/assert.h", line 69: warning: (MISRA-C:2004 19.4/R) C macros shall only expand to a braced initialiser, a constant, a string literal, a parenthesised expression, a type qualifier, a storage class specifier, or a do-while-zero construct
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/assert.h", line 70: warning: (MISRA-C:2004 19.7/A) A function should be used in preference to a function-like macro
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/assert.h", line 70: warning: (MISRA-C:2004 19.13/A) The # and ## operators should not be used
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/assert.h", line 70: warning: (MISRA-C:2004 19.4/R) C macros shall only expand to a braced initialiser, a constant, a string literal, a parenthesised expression, a type qualifier, a storage class specifier, or a do-while-zero construct
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/assert.h", line 77: warning: (MISRA-C:2004 19.7/A) A function should be used in preference to a function-like macro
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/assert.h", line 77: warning: (MISRA-C:2004 19.4/R) C macros shall only expand to a braced initialiser, a constant, a string literal, a parenthesised expression, a type qualifier, a storage class specifier, or a do-while-zero construct
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/limits.h", line 45: warning: (MISRA-C:2004 20.1/R) Reserved identifiers, macros and functions in the standard library, shall not be defined, redefined or undefined ("CHAR_BIT")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/limits.h", line 46: warning: (MISRA-C:2004 20.1/R) Reserved identifiers, macros and functions in the standard library, shall not be defined, redefined or undefined ("SCHAR_MIN")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/limits.h", line 46: warning: (MISRA-C:2004 19.4/R) C macros shall only expand to a braced initialiser, a constant, a string literal, a parenthesised expression, a type qualifier, a storage class specifier, or a do-while-zero construct
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/limits.h", line 47: warning: (MISRA-C:2004 20.1/R) Reserved identifiers, macros and functions in the standard library, shall not be defined, redefined or undefined ("SCHAR_MAX")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/limits.h", line 48: warning: (MISRA-C:2004 20.1/R) Reserved identifiers, macros and functions in the standard library, shall not be defined, redefined or undefined ("UCHAR_MAX")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/limits.h", line 49: warning: (MISRA-C:2004 20.1/R) Reserved identifiers, macros and functions in the standard library, shall not be defined, redefined or undefined ("CHAR_MIN")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/limits.h", line 49: warning: (MISRA-C:2004 19.4/R) C macros shall only expand to a braced initialiser, a constant, a string literal, a parenthesised expression, a type qualifier, a storage class specifier, or a do-while-zero construct
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/limits.h", line 50: warning: (MISRA-C:2004 20.1/R) Reserved identifiers, macros and functions in the standard library, shall not be defined, redefined or undefined ("CHAR_MAX")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/limits.h", line 50: warning: (MISRA-C:2004 19.4/R) C macros shall only expand to a braced initialiser, a constant, a string literal, a parenthesised expression, a type qualifier, a storage class specifier, or a do-while-zero construct
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/limits.h", line 51: warning: (MISRA-C:2004 20.1/R) Reserved identifiers, macros and functions in the standard library, shall not be defined, redefined or undefined ("MB_LEN_MAX")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/limits.h", line 53: warning: (MISRA-C:2004 20.1/R) Reserved identifiers, macros and functions in the standard library, shall not be defined, redefined or undefined ("SHRT_MIN")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/limits.h", line 53: warning: (MISRA-C:2004 19.4/R) C macros shall only expand to a braced initialiser, a constant, a string literal, a parenthesised expression, a type qualifier, a storage class specifier, or a do-while-zero construct
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/limits.h", line 54: warning: (MISRA-C:2004 20.1/R) Reserved identifiers, macros and functions in the standard library, shall not be defined, redefined or undefined ("SHRT_MAX")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/limits.h", line 55: warning: (MISRA-C:2004 20.1/R) Reserved identifiers, macros and functions in the standard library, shall not be defined, redefined or undefined ("USHRT_MAX")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/limits.h", line 57: warning: (MISRA-C:2004 20.1/R) Reserved identifiers, macros and functions in the standard library, shall not be defined, redefined or undefined ("INT_MIN")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/limits.h", line 58: warning: (MISRA-C:2004 20.1/R) Reserved identifiers, macros and functions in the standard library, shall not be defined, redefined or undefined ("INT_MAX")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/limits.h", line 59: warning: (MISRA-C:2004 20.1/R) Reserved identifiers, macros and functions in the standard library, shall not be defined, redefined or undefined ("UINT_MAX")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/limits.h", line 66: warning: (MISRA-C:2004 20.1/R) Reserved identifiers, macros and functions in the standard library, shall not be defined, redefined or undefined ("LONG_MIN")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/limits.h", line 67: warning: (MISRA-C:2004 20.1/R) Reserved identifiers, macros and functions in the standard library, shall not be defined, redefined or undefined ("LONG_MAX")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/limits.h", line 68: warning: (MISRA-C:2004 20.1/R) Reserved identifiers, macros and functions in the standard library, shall not be defined, redefined or undefined ("ULONG_MAX")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/ctype.h", line 54: warning: (MISRA-C:2004 2.2/R) Source code shall only use /* ... */ style comments
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/ctype.h", line 55: warning: (MISRA-C:2004 2.2/R) Source code shall only use /* ... */ style comments
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/ctype.h", line 56: warning: (MISRA-C:2004 2.2/R) Source code shall only use /* ... */ style comments
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/ctype.h", line 57: warning: (MISRA-C:2004 2.2/R) Source code shall only use /* ... */ style comments
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/ctype.h", line 62: warning: (MISRA-C:2004 8.12/R) When an array is declared with external linkage, its size shall be stated explicitly or defined implicitly by initialisation
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/ctype.h", line 67: warning: (MISRA-C:2004 19.1/A) #include statements in a file should only be preceded by other preprocessor directives or comments
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/_isfuncdcl.h", line 38: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/_isfuncdcl.h", line 38: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/_isfuncdcl.h", line 38: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("isalnum")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/_isfuncdcl.h", line 39: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/_isfuncdcl.h", line 39: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/_isfuncdcl.h", line 39: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("isalpha")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/_isfuncdcl.h", line 40: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/_isfuncdcl.h", line 40: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/_isfuncdcl.h", line 40: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("iscntrl")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/_isfuncdcl.h", line 41: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/_isfuncdcl.h", line 41: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/_isfuncdcl.h", line 41: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("isdigit")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/_isfuncdcl.h", line 42: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/_isfuncdcl.h", line 42: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/_isfuncdcl.h", line 42: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("isgraph")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/_isfuncdcl.h", line 43: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/_isfuncdcl.h", line 43: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/_isfuncdcl.h", line 43: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("islower")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/_isfuncdcl.h", line 44: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/_isfuncdcl.h", line 44: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/_isfuncdcl.h", line 44: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("isprint")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/_isfuncdcl.h", line 45: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/_isfuncdcl.h", line 45: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/_isfuncdcl.h", line 45: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("ispunct")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/_isfuncdcl.h", line 46: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/_isfuncdcl.h", line 46: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/_isfuncdcl.h", line 46: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("isspace")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/_isfuncdcl.h", line 47: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/_isfuncdcl.h", line 47: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/_isfuncdcl.h", line 47: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("isupper")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/_isfuncdcl.h", line 48: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/_isfuncdcl.h", line 48: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/_isfuncdcl.h", line 48: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("isxdigit")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/_isfuncdcl.h", line 49: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/_isfuncdcl.h", line 49: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/_isfuncdcl.h", line 50: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/_isfuncdcl.h", line 50: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/_isfuncdcl.h", line 50: warning: (MISRA-C:2004 19.15/R) Precautions shall be taken in order to prevent the contents of a header file being included twice
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/ctype.h", line 69: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/ctype.h", line 69: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/ctype.h", line 69: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("toupper")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/ctype.h", line 70: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/ctype.h", line 70: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/ctype.h", line 70: warning: (MISRA-C:2004 20.2/R) The names of standard library macros, objects and functions shall not be reused ("tolower")
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/ctype.h", line 93: warning: (MISRA-C:2004 19.7/A) A function should be used in preference to a function-like macro
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/ctype.h", line 94: warning: (MISRA-C:2004 19.7/A) A function should be used in preference to a function-like macro
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/ctype.h", line 95: warning: (MISRA-C:2004 19.7/A) A function should be used in preference to a function-like macro
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/ctype.h", line 96: warning: (MISRA-C:2004 19.7/A) A function should be used in preference to a function-like macro
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/ctype.h", line 97: warning: (MISRA-C:2004 19.7/A) A function should be used in preference to a function-like macro
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/ctype.h", line 98: warning: (MISRA-C:2004 19.7/A) A function should be used in preference to a function-like macro
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/ctype.h", line 99: warning: (MISRA-C:2004 19.7/A) A function should be used in preference to a function-like macro
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/ctype.h", line 100: warning: (MISRA-C:2004 19.7/A) A function should be used in preference to a function-like macro
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/ctype.h", line 101: warning: (MISRA-C:2004 19.7/A) A function should be used in preference to a function-like macro
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/ctype.h", line 102: warning: (MISRA-C:2004 19.7/A) A function should be used in preference to a function-like macro
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/ctype.h", line 103: warning: (MISRA-C:2004 19.7/A) A function should be used in preference to a function-like macro
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/ctype.h", line 106: warning: (MISRA-C:2004 19.7/A) A function should be used in preference to a function-like macro
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/ctype.h", line 107: warning: (MISRA-C:2004 19.7/A) A function should be used in preference to a function-like macro
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/ctype.h", line 108: warning: (MISRA-C:2004 19.7/A) A function should be used in preference to a function-like macro
+"/home/rtrk/Desktop/ra215-2016/c6000_7.4.23/include/ctype.h", line 109: warning: (MISRA-C:2004 19.7/A) A function should be used in preference to a function-like macro
+"../sum.h", line 24: warning: (MISRA-C:2004 6.3/A) typedefs that indicate size and signedness should be used in place of the basic numerical types
+"../sum.h", line 27: warning: (MISRA-C:2004 16.5/R) Functions with no parameters shall be declared and defined with the parameter list void
+"../tests.c", line 11: warning: (MISRA-C:2004 16.5/R) Functions with no parameters shall be declared and defined with the parameter list void
+"../tests.c", line 12: warning: (MISRA-C:2004 5.7/A) No identifier name should be reused ("num1")
+"../tests.c", line 13: warning: (MISRA-C:2004 5.7/A) No identifier name should be reused ("num2")
+
+18:29:18 Build Finished (took 23s.637ms)
+
+

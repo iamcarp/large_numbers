@@ -2,24 +2,41 @@
  * sum.c
  *
  *  Created on: Oct 18, 2019
- *      Author: rtrk
+ *      Author: Luka Karan
  */
 #include "sum.h"
+//const bool true = 1;
+//const bool false = 0;
 
-char *stringReverese(char *str)
+int_least8_t isDigit(int_least8_t c)
 {
-      char *begin, *end;
+	if ((c >= '0') && (c <= '9'))
+	{
+		return 1;
+	}
+	else
+	{
+		return 0;
+	}
+}
 
-      if (! str || ! *str)
+
+char* stringReverese(char* str)
+{
+      char* begin;
+      char* end;
+
+      if (((! str) || (!* str)) != 0)
       {
             return str;
       }
+      begin = str;
 
-      for (begin = str, end = str + strlen(str) - 1; end > begin; ++begin, --end)
+      for (end = str + strlen(str) - 1; end > begin; (++begin, --end))
       {
-            *begin ^= *end;
-            *end ^= *begin;
-            *begin ^= *end;
+            * begin ^= * end;
+            * end ^= * begin;
+            * begin ^= * end;
       }
 
       return str;
@@ -27,27 +44,27 @@ char *stringReverese(char *str)
 
 int chrtoint(char symbol)
 {
-	int_least8_t i;
-	for (i = 48; i<=57; i++)
+	int_least8_t counter;
+	for (counter = 48; counter <= 57; counter++)
 	{
-		if (toascii(i)==symbol)
+		if (toascii(counter) == symbol)
 			{
-			return i-48;
+			return counter-48;
 			}
 	}
 	return 0;
 }
 
 
-void summNumbers( char num1[], char num2[]){
+void summNumbers(char num1[], char num2[]){
 
-	int_least8_t result[80];
+	int_least8_t result[180];
 	int_least8_t lenNum1;
 	int_least8_t lenNum2;
 	int_least8_t lenMax;
 	int_least8_t sum;
-	int_least8_t i;
-	int_least8_t j;
+	int_least8_t iCounter;
+	int_least8_t jCounter;
 	int_least8_t carry;
 
 	lenNum1 = strlen(num1);
@@ -57,43 +74,48 @@ void summNumbers( char num1[], char num2[]){
 	stringReverese(num2);
 
 	lenMax = lenNum1;
-	if(lenNum1<lenNum2)
+	if (lenNum1 < lenNum2)
 	{
 		lenMax = lenNum2;
 	}
 
 	carry=0;
 
-	for(i=0; i< lenMax; i++)
+	for (iCounter = 0; iCounter < lenMax; iCounter++)
 	{
-		if(lenNum1==lenNum2 || (i < lenNum1 && i < lenNum2))
+		if ((lenNum1 == lenNum2) || ((iCounter < lenNum1) && (iCounter < lenNum2)))
 		{
-			sum = carry+chrtoint(num1[i])+chrtoint(num2[i]);
+			sum = carry + chrtoint(num1[iCounter]) + chrtoint(num2[iCounter]);
 		}
-		else if(i >=lenNum1)
+		else if ( iCounter >=lenNum1 )
 		{
-			sum = carry+chrtoint(num2[i]);
+			sum = carry + chrtoint(num2[iCounter]);
 		}
-		else if(i >=lenNum2)
+		else if (iCounter >= lenNum2)
 		{
-			sum = carry+chrtoint(num1[i]);
+			sum = carry + chrtoint(num1[iCounter]);
+		}
+		else
+		{
+			break;
 		}
 
-		result[i] = sum%10;
-		carry = sum/10;
+		result[iCounter] = sum % 10;
+		carry = sum / 10;
 	}
 
-	if(carry)
+	if (carry)
 	{
-		result[i]=carry;
-		i++;
+		result[iCounter] = carry;
+		iCounter++;
 	}
 
 	printf("\nResult: ");
 
-	for(j=0; j < i; j++)
+	for (jCounter = 0; jCounter < iCounter; jCounter++)
 	{
-		printf("%"PRIdLEAST8, result[i-j-1]);
+		printf("%"PRIdLEAST8, result[iCounter-jCounter-1]);
 	}
 
 }
+

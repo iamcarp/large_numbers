@@ -18,14 +18,13 @@
 #define MAX 100
 
 
-//typedef int_least8_t bool;
+typedef int_least8_t bool;
 
-//bool isDigit(int_least8_t c);
-int_least8_t isDigit(int_least8_t c);
+bool isDigit(int_least8_t c);
 int chrtoint(char symbol);
 char *stringReverese(char *str);
 void summNumbers( char num1[], char num2[]);
-
+void test1();
 
 #endif
 
