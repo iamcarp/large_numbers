@@ -9,12 +9,11 @@
 #define SUM_H_
 
 #include <stdio.h>
-#include <stdlib.h>
 #include <string.h>
 #include <inttypes.h>
-#include <assert.h>
-#include <limits.h>
-#include<ctype.h>
+
+
+
 #define MAX 100
 
 
@@ -22,9 +21,9 @@
 
 //bool isDigit(int_least8_t c);
 int_least8_t isDigit(int_least8_t c);
-int chrtoint(char symbol);
-char *stringReverese(char *str);
-void summNumbers( char num1[], char num2[]);
+int_least8_t charToInteger(int_least8_t symbol);
+int_least8_t *stringReverese(int_least8_t *str);
+void summNumbers( int_least8_t num1[], int_least8_t num2[]);
 
 
 #endif

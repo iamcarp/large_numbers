@@ -20,29 +20,7 @@ int_least8_t isDigit(int_least8_t c)
 	}
 }
 
-
-char* stringReverese(char* str)
-{
-      char* begin;
-      char* end;
-
-      if (((! str) || (!* str)) != 0)
-      {
-            return str;
-      }
-      begin = str;
-
-      for (end = str + strlen(str) - 1; end > begin; (++begin, --end))
-      {
-            * begin ^= * end;
-            * end ^= * begin;
-            * begin ^= * end;
-      }
-
-      return str;
-}
-
-int chrtoint(char symbol)
+int_least8_t charToInteger(int_least8_t symbol)
 {
 	int_least8_t counter;
 	for (counter = 48; counter <= 57; counter++)
@@ -55,8 +33,27 @@ int chrtoint(char symbol)
 	return 0;
 }
 
+int_least8_t* stringReverese(int_least8_t* str)
+{
+	int_least8_t* begin;
+	int_least8_t* end;
 
-void summNumbers(char num1[], char num2[]){
+	begin = str;
+
+	for (end = str + strlen(str) - 1; end > begin; (++begin, --end))
+	{
+		* begin ^= * end;
+		* end ^= * begin;
+		* begin ^= * end;
+	}
+
+	return str;
+	}
+
+
+
+
+void summNumbers(int_least8_t num1[], int_least8_t num2[]){
 
 	int_least8_t result[180];
 	int_least8_t lenNum1;
@@ -81,19 +78,19 @@ void summNumbers(char num1[], char num2[]){
 
 	carry=0;
 
-	for (iCounter = 0; iCounter < lenMax; iCounter++)
+	for (iCounter = 0; iCounter < lenMax; (iCounter=iCounter+1))
 	{
 		if ((lenNum1 == lenNum2) || ((iCounter < lenNum1) && (iCounter < lenNum2)))
 		{
-			sum = carry + chrtoint(num1[iCounter]) + chrtoint(num2[iCounter]);
+			sum = carry + charToInteger(num1[iCounter]) + charToInteger(num2[iCounter]);
 		}
-		else if ( iCounter >=lenNum1 )
+		else if ( iCounter >= lenNum1 )
 		{
-			sum = carry + chrtoint(num2[iCounter]);
+			sum = carry + charToInteger(num2[iCounter]);
 		}
 		else if (iCounter >= lenNum2)
 		{
-			sum = carry + chrtoint(num1[iCounter]);
+			sum = carry + charToInteger(num1[iCounter]);
 		}
 		else
 		{
@@ -107,12 +104,12 @@ void summNumbers(char num1[], char num2[]){
 	if (carry)
 	{
 		result[iCounter] = carry;
-		iCounter++;
+		iCounter = iCounter + 1;
 	}
 
 	printf("\nResult: ");
 
-	for (jCounter = 0; jCounter < iCounter; jCounter++)
+	for (jCounter = 0; jCounter < iCounter; (jCounter = jCounter + 1))
 	{
 		printf("%"PRIdLEAST8, result[iCounter-jCounter-1]);
 	}

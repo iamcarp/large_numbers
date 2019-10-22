@@ -99,3 +99,11 @@ umesto i j stavljeno novo
 stavljene zagrade
 */
 
+
+
+/*
+chat to int izbrisano
+      if (((! str) || (!* str)) != 0)
+      {
+            return str;
+      }*/
