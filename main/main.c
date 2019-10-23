@@ -48,7 +48,10 @@
 *							rezlutat svakog sabiranja ce biti predstavljen kao moduo 10
 *
 *
-*		Sto se tice MISRAc standarda izbacuje upozorenja za  <stdio.h> <string.h> <inttypes.h> iako su mi neophodni za rad
+*		Sto se tice MISRAc standarda zanemario sam upozorenja za  <stdio.h> <string.h>
+*													   		      strlen jer ne vraca iste vrednosti a nisam menjao sam heder koji je ukljucen u includes
+*															      increment (++) and decrement (--) sam zanemario jer ukoliko promenim program ne radi kako je to trebalo
+*
  *
  */
 
@@ -78,4 +81,3 @@ return 0;
 
 
 }
-

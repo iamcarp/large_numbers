@@ -5,8 +5,7 @@
  *      Author: Luka Karan
  */
 #include "sum.h"
-//const bool true = 1;
-//const bool false = 0;
+
 
 int_least8_t isDigit(int_least8_t c)
 {
@@ -45,6 +44,7 @@ int_least8_t* stringReverese(int_least8_t* str)
 		* begin ^= * end;
 		* end ^= * begin;
 		* begin ^= * end;
+
 	}
 
 	return str;
@@ -115,4 +115,3 @@ void summNumbers(int_least8_t num1[], int_least8_t num2[]){
 	}
 
 }
-

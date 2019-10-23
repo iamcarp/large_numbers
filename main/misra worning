@@ -1,0 +1,5 @@
+"../sum.c", line 27: warning: function declared implicitly
+"../sum.c", line 42: warning: argument of type "int_least8_t *" is incompatible with parameter of type "const char *"
+"../sum.c", line 42: warning: (MISRA-C:2004 13.5/R) The three expressions of a for statement shall be concerned only with loop control
+"../sum.c", line 67: warning: argument of type "int_least8_t *" is incompatible with parameter of type "const char *"
+"../sum.c", line 68: warning: argument of type "int_least8_t *" is incompatible with parameter of type "const char *"
