@@ -61,17 +61,41 @@ int main(){
 
 	int_least8_t num1[120];
 	int_least8_t num2[120];
+	int_least8_t iLen=0;
+	int_least8_t lenNum1;
+	int_least8_t lenNum2;
 
 
 	printf("User choose numbers");
 
 	printf("\nFirst Number:");
 	scanf("%s", num1);
-	isDigit(num1);
+	lenNum1=strlen(num1);
+
+	for (iLen=0;iLen<lenNum1;iLen++)
+	{
+		if(isDigit(num1[iLen]))
+		{
+			continue;
+		}
+		else{
+			printf("\n \"%c\" is not number,character will be presented like 0",num1[iLen]);
+		}
+	}
 
 	printf("\nSecond Number:");
 	scanf("%s", num2);
-	isDigit(num2);
+	lenNum2=strlen(num2);
+	for (iLen=0;iLen<lenNum2;iLen++)
+	{
+		if(isDigit(num2[iLen]))
+		{
+			continue;
+		}
+		else{
+			printf("\n \"%c\" is not number,character will be presented like 0",num2[iLen]);
+		}
+	}
 
 	summNumbers(num1,num2);
 
